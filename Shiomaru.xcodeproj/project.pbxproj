@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F012A6F51F9714CE00276CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A6F41F9714CE00276CAF /* AppDelegate.swift */; };
+		F012A6F71F9714CE00276CAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A6F61F9714CE00276CAF /* ViewController.swift */; };
+		F012A6FA1F9714CE00276CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F012A6F81F9714CE00276CAF /* Main.storyboard */; };
+		F012A6FD1F9714CE00276CAF /* Shiomaru.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F012A6FB1F9714CE00276CAF /* Shiomaru.xcdatamodeld */; };
+		F012A6FF1F9714CE00276CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F012A6FE1F9714CE00276CAF /* Assets.xcassets */; };
+		F012A7021F9714CE00276CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F012A7001F9714CE00276CAF /* LaunchScreen.storyboard */; };
+		F012A70D1F9714CF00276CAF /* ShiomaruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A70C1F9714CF00276CAF /* ShiomaruTests.swift */; };
+		F012A7181F9714CF00276CAF /* ShiomaruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A7171F9714CF00276CAF /* ShiomaruUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F012A7091F9714CF00276CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F012A6E91F9714CE00276CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F012A6F01F9714CE00276CAF;
+			remoteInfo = Shiomaru;
+		};
+		F012A7141F9714CF00276CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F012A6E91F9714CE00276CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F012A6F01F9714CE00276CAF;
+			remoteInfo = Shiomaru;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F012A6F11F9714CE00276CAF /* Shiomaru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shiomaru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F012A6F41F9714CE00276CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F012A6F61F9714CE00276CAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F012A6F91F9714CE00276CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F012A6FC1F9714CE00276CAF /* Shiomaru.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shiomaru.xcdatamodel; sourceTree = "<group>"; };
+		F012A6FE1F9714CE00276CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F012A7011F9714CE00276CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F012A7031F9714CE00276CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F012A7081F9714CF00276CAF /* ShiomaruTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiomaruTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F012A70C1F9714CF00276CAF /* ShiomaruTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiomaruTests.swift; sourceTree = "<group>"; };
+		F012A70E1F9714CF00276CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F012A7131F9714CF00276CAF /* ShiomaruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiomaruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F012A7171F9714CF00276CAF /* ShiomaruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiomaruUITests.swift; sourceTree = "<group>"; };
+		F012A7191F9714CF00276CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F012A6EE1F9714CE00276CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F012A7051F9714CF00276CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F012A7101F9714CF00276CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F012A6E81F9714CE00276CAF = {
+			isa = PBXGroup;
+			children = (
+				F012A6F31F9714CE00276CAF /* Shiomaru */,
+				F012A70B1F9714CF00276CAF /* ShiomaruTests */,
+				F012A7161F9714CF00276CAF /* ShiomaruUITests */,
+				F012A6F21F9714CE00276CAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F012A6F21F9714CE00276CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F012A6F11F9714CE00276CAF /* Shiomaru.app */,
+				F012A7081F9714CF00276CAF /* ShiomaruTests.xctest */,
+				F012A7131F9714CF00276CAF /* ShiomaruUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F012A6F31F9714CE00276CAF /* Shiomaru */ = {
+			isa = PBXGroup;
+			children = (
+				F012A6F41F9714CE00276CAF /* AppDelegate.swift */,
+				F012A6F61F9714CE00276CAF /* ViewController.swift */,
+				F012A6F81F9714CE00276CAF /* Main.storyboard */,
+				F012A6FE1F9714CE00276CAF /* Assets.xcassets */,
+				F012A7001F9714CE00276CAF /* LaunchScreen.storyboard */,
+				F012A7031F9714CE00276CAF /* Info.plist */,
+				F012A6FB1F9714CE00276CAF /* Shiomaru.xcdatamodeld */,
+			);
+			path = Shiomaru;
+			sourceTree = "<group>";
+		};
+		F012A70B1F9714CF00276CAF /* ShiomaruTests */ = {
+			isa = PBXGroup;
+			children = (
+				F012A70C1F9714CF00276CAF /* ShiomaruTests.swift */,
+				F012A70E1F9714CF00276CAF /* Info.plist */,
+			);
+			path = ShiomaruTests;
+			sourceTree = "<group>";
+		};
+		F012A7161F9714CF00276CAF /* ShiomaruUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F012A7171F9714CF00276CAF /* ShiomaruUITests.swift */,
+				F012A7191F9714CF00276CAF /* Info.plist */,
+			);
+			path = ShiomaruUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F012A6F01F9714CE00276CAF /* Shiomaru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F012A71C1F9714CF00276CAF /* Build configuration list for PBXNativeTarget "Shiomaru" */;
+			buildPhases = (
+				F012A6ED1F9714CE00276CAF /* Sources */,
+				F012A6EE1F9714CE00276CAF /* Frameworks */,
+				F012A6EF1F9714CE00276CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shiomaru;
+			productName = Shiomaru;
+			productReference = F012A6F11F9714CE00276CAF /* Shiomaru.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F012A7071F9714CF00276CAF /* ShiomaruTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F012A71F1F9714CF00276CAF /* Build configuration list for PBXNativeTarget "ShiomaruTests" */;
+			buildPhases = (
+				F012A7041F9714CF00276CAF /* Sources */,
+				F012A7051F9714CF00276CAF /* Frameworks */,
+				F012A7061F9714CF00276CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F012A70A1F9714CF00276CAF /* PBXTargetDependency */,
+			);
+			name = ShiomaruTests;
+			productName = ShiomaruTests;
+			productReference = F012A7081F9714CF00276CAF /* ShiomaruTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F012A7121F9714CF00276CAF /* ShiomaruUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F012A7221F9714CF00276CAF /* Build configuration list for PBXNativeTarget "ShiomaruUITests" */;
+			buildPhases = (
+				F012A70F1F9714CF00276CAF /* Sources */,
+				F012A7101F9714CF00276CAF /* Frameworks */,
+				F012A7111F9714CF00276CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F012A7151F9714CF00276CAF /* PBXTargetDependency */,
+			);
+			name = ShiomaruUITests;
+			productName = ShiomaruUITests;
+			productReference = F012A7131F9714CF00276CAF /* ShiomaruUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F012A6E91F9714CE00276CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = kanahebi;
+				TargetAttributes = {
+					F012A6F01F9714CE00276CAF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F012A7071F9714CF00276CAF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F012A6F01F9714CE00276CAF;
+					};
+					F012A7121F9714CF00276CAF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F012A6F01F9714CE00276CAF;
+					};
+				};
+			};
+			buildConfigurationList = F012A6EC1F9714CE00276CAF /* Build configuration list for PBXProject "Shiomaru" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F012A6E81F9714CE00276CAF;
+			productRefGroup = F012A6F21F9714CE00276CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F012A6F01F9714CE00276CAF /* Shiomaru */,
+				F012A7071F9714CF00276CAF /* ShiomaruTests */,
+				F012A7121F9714CF00276CAF /* ShiomaruUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F012A6EF1F9714CE00276CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F012A7021F9714CE00276CAF /* LaunchScreen.storyboard in Resources */,
+				F012A6FF1F9714CE00276CAF /* Assets.xcassets in Resources */,
+				F012A6FA1F9714CE00276CAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F012A7061F9714CF00276CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F012A7111F9714CF00276CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F012A6ED1F9714CE00276CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F012A6FD1F9714CE00276CAF /* Shiomaru.xcdatamodeld in Sources */,
+				F012A6F71F9714CE00276CAF /* ViewController.swift in Sources */,
+				F012A6F51F9714CE00276CAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F012A7041F9714CF00276CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F012A70D1F9714CF00276CAF /* ShiomaruTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F012A70F1F9714CF00276CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F012A7181F9714CF00276CAF /* ShiomaruUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F012A70A1F9714CF00276CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F012A6F01F9714CE00276CAF /* Shiomaru */;
+			targetProxy = F012A7091F9714CF00276CAF /* PBXContainerItemProxy */;
+		};
+		F012A7151F9714CF00276CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F012A6F01F9714CE00276CAF /* Shiomaru */;
+			targetProxy = F012A7141F9714CF00276CAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F012A6F81F9714CE00276CAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F012A6F91F9714CE00276CAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F012A7001F9714CE00276CAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F012A7011F9714CE00276CAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F012A71A1F9714CF00276CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F012A71B1F9714CF00276CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F012A71D1F9714CF00276CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shiomaru/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kanahebi.company.Shiomaru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F012A71E1F9714CF00276CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shiomaru/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kanahebi.company.Shiomaru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F012A7201F9714CF00276CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShiomaruTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kanahebi.company.ShiomaruTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shiomaru.app/Shiomaru";
+			};
+			name = Debug;
+		};
+		F012A7211F9714CF00276CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShiomaruTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kanahebi.company.ShiomaruTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shiomaru.app/Shiomaru";
+			};
+			name = Release;
+		};
+		F012A7231F9714CF00276CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShiomaruUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kanahebi.company.ShiomaruUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shiomaru;
+			};
+			name = Debug;
+		};
+		F012A7241F9714CF00276CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShiomaruUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kanahebi.company.ShiomaruUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shiomaru;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F012A6EC1F9714CE00276CAF /* Build configuration list for PBXProject "Shiomaru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F012A71A1F9714CF00276CAF /* Debug */,
+				F012A71B1F9714CF00276CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F012A71C1F9714CF00276CAF /* Build configuration list for PBXNativeTarget "Shiomaru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F012A71D1F9714CF00276CAF /* Debug */,
+				F012A71E1F9714CF00276CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F012A71F1F9714CF00276CAF /* Build configuration list for PBXNativeTarget "ShiomaruTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F012A7201F9714CF00276CAF /* Debug */,
+				F012A7211F9714CF00276CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F012A7221F9714CF00276CAF /* Build configuration list for PBXNativeTarget "ShiomaruUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F012A7231F9714CF00276CAF /* Debug */,
+				F012A7241F9714CF00276CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F012A6FB1F9714CE00276CAF /* Shiomaru.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F012A6FC1F9714CE00276CAF /* Shiomaru.xcdatamodel */,
+			);
+			currentVersion = F012A6FC1F9714CE00276CAF /* Shiomaru.xcdatamodel */;
+			path = Shiomaru.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F012A6E91F9714CE00276CAF /* Project object */;
+}
