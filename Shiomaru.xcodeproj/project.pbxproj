@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F012A6F51F9714CE00276CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A6F41F9714CE00276CAF /* AppDelegate.swift */; };
-		F012A6F71F9714CE00276CAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A6F61F9714CE00276CAF /* ViewController.swift */; };
+		F012A6F71F9714CE00276CAF /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A6F61F9714CE00276CAF /* TopViewController.swift */; };
 		F012A6FA1F9714CE00276CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F012A6F81F9714CE00276CAF /* Main.storyboard */; };
 		F012A6FD1F9714CE00276CAF /* Shiomaru.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F012A6FB1F9714CE00276CAF /* Shiomaru.xcdatamodeld */; };
 		F012A6FF1F9714CE00276CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F012A6FE1F9714CE00276CAF /* Assets.xcassets */; };
 		F012A7021F9714CE00276CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F012A7001F9714CE00276CAF /* LaunchScreen.storyboard */; };
 		F012A70D1F9714CF00276CAF /* ShiomaruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A70C1F9714CF00276CAF /* ShiomaruTests.swift */; };
 		F012A7181F9714CF00276CAF /* ShiomaruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A7171F9714CF00276CAF /* ShiomaruUITests.swift */; };
+		F012A7261F97161900276CAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A7251F97161900276CAF /* LoginViewController.swift */; };
+		F012A7281F97174C00276CAF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A7271F97174C00276CAF /* SignUpViewController.swift */; };
+		F012A72A1F9718D700276CAF /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A7291F9718D700276CAF /* ForgotPasswordViewController.swift */; };
+		F012A72C1F97197500276CAF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A72B1F97197500276CAF /* DetailViewController.swift */; };
+		F012A72E1F9874EF00276CAF /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A72D1F9874EF00276CAF /* FamilyViewController.swift */; };
+		F012A7301F98754600276CAF /* HospitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012A72F1F98754600276CAF /* HospitalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,7 @@
 /* Begin PBXFileReference section */
 		F012A6F11F9714CE00276CAF /* Shiomaru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shiomaru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F012A6F41F9714CE00276CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F012A6F61F9714CE00276CAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F012A6F61F9714CE00276CAF /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		F012A6F91F9714CE00276CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F012A6FC1F9714CE00276CAF /* Shiomaru.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shiomaru.xcdatamodel; sourceTree = "<group>"; };
 		F012A6FE1F9714CE00276CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		F012A7131F9714CF00276CAF /* ShiomaruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiomaruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F012A7171F9714CF00276CAF /* ShiomaruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiomaruUITests.swift; sourceTree = "<group>"; };
 		F012A7191F9714CF00276CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F012A7251F97161900276CAF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F012A7271F97174C00276CAF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F012A7291F9718D700276CAF /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		F012A72B1F97197500276CAF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F012A72D1F9874EF00276CAF /* FamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
+		F012A72F1F98754600276CAF /* HospitalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +112,14 @@
 			isa = PBXGroup;
 			children = (
 				F012A6F41F9714CE00276CAF /* AppDelegate.swift */,
-				F012A6F61F9714CE00276CAF /* ViewController.swift */,
+				F012A6F61F9714CE00276CAF /* TopViewController.swift */,
+				F012A7291F9718D700276CAF /* ForgotPasswordViewController.swift */,
 				F012A6F81F9714CE00276CAF /* Main.storyboard */,
+				F012A72F1F98754600276CAF /* HospitalViewController.swift */,
+				F012A72D1F9874EF00276CAF /* FamilyViewController.swift */,
+				F012A72B1F97197500276CAF /* DetailViewController.swift */,
+				F012A7271F97174C00276CAF /* SignUpViewController.swift */,
+				F012A7251F97161900276CAF /* LoginViewController.swift */,
 				F012A6FE1F9714CE00276CAF /* Assets.xcassets */,
 				F012A7001F9714CE00276CAF /* LaunchScreen.storyboard */,
 				F012A7031F9714CE00276CAF /* Info.plist */,
@@ -262,9 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F012A7261F97161900276CAF /* LoginViewController.swift in Sources */,
 				F012A6FD1F9714CE00276CAF /* Shiomaru.xcdatamodeld in Sources */,
-				F012A6F71F9714CE00276CAF /* ViewController.swift in Sources */,
+				F012A72A1F9718D700276CAF /* ForgotPasswordViewController.swift in Sources */,
+				F012A6F71F9714CE00276CAF /* TopViewController.swift in Sources */,
 				F012A6F51F9714CE00276CAF /* AppDelegate.swift in Sources */,
+				F012A7301F98754600276CAF /* HospitalViewController.swift in Sources */,
+				F012A7281F97174C00276CAF /* SignUpViewController.swift in Sources */,
+				F012A72E1F9874EF00276CAF /* FamilyViewController.swift in Sources */,
+				F012A72C1F97197500276CAF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
